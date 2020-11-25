@@ -16,9 +16,9 @@ const data = {
             isAdmin: false,
         },
     ],
+
     products: [
         {
-            _id: '1',
             name: 'Nike Slim Shirts',
             category: 'Shirts',
             image: '/images/p1.jpg',
@@ -29,8 +29,8 @@ const data = {
             numReviews: 12,
             description: 'High quality product'
         },
+
         {
-            _id: '2',
             name: 'Nike Slim',
             category: 'Shirts',
             image: '/images/p2.jpg',
@@ -41,8 +41,8 @@ const data = {
             numReviews: 11,
             description: 'High quality product'
         },
+
         {
-            _id: '3',
             name: 'Nike',
             category: 'Shirts',
             image: '/images/p3.jpg',
@@ -53,9 +53,9 @@ const data = {
             numReviews: 112,
             description: 'High quality product'
         },
+
         {
-            _id: '4',
-            name: 'Nike Slim Shirts',
+            name: 'Nike Slim S',
             category: 'Shirts',
             image: '/images/p4.jpg',
             price: 50,
@@ -65,10 +65,10 @@ const data = {
             numReviews: 34,
             description: 'High quality product'
         },
+
         {
-            _id: '5',
-            name: 'Nike Slim Shirts',
-            category: 'Shirts',
+            name: 'Nike Slim Sh',
+            category: 'Pants',
             image: '/images/p5.jpg',
             price: 80,
             countInStock: 0,
@@ -77,9 +77,9 @@ const data = {
             numReviews: 43,
             description: 'High quality product'
         },
+
         {
-            _id: '6',
-            name: 'Nike Slim Shirts',
+            name: 'Nike Slim Shir',
             category: 'Pants',
             image: '/images/p6.jpg',
             price: 65,
