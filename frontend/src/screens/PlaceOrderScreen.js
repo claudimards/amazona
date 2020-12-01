@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import CheckoutSteps from '../components/CheckoutSteps';
 import {Link} from 'react-router-dom';
 import { createOrder } from '../actions/OrderActions';
-import { ORDER_CREATE_RESET } from '../constants/OrderConstantes';
+import { ORDER_CREATE_RESET } from '../constants/OrderConstants';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 
