@@ -5,7 +5,7 @@ export const generateToken = (user) => {
         _id: user._id,
         name: user.name,
         email: user.email,
-        isAdmin: user.isAdmin
+        isAdmin: user.isAdmin,
     }, process.env.JWT_SECRET || 'somethingsecret', {
         expiresIn: '30d',
     } );
@@ -31,3 +31,11 @@ export const isAuth = (req, res, next) => {
         res.status(401).send({message: 'No Token'});
     }
 };
+
+export const isAdmin = (req, res, next) => {
+    if(req.user && req.user.idAdmin){
+        next();
+    }else{
+        res.status(401).send({message: 'Invalid Admin Token'});
+    }
+}
